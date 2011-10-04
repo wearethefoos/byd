@@ -14,6 +14,6 @@
 
 Fork off and clone! 
 
-Find and replace all `MyApp` occurences with `YourAppName`.
+Find and replace all `BookYourDive` occurences with `YourAppName`.
 
 Enjoy :)

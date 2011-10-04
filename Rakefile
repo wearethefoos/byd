@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MyApp::Application.load_tasks
+BookYourDive::Application.load_tasks

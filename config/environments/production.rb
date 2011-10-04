@@ -1,4 +1,4 @@
-MyApp::Application.configure do
+BookYourDive::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

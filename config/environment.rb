@@ -2,4 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the rails application
-MyApp::Application.initialize!
+BookYourDive::Application.initialize!
