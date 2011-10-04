@@ -1,0 +1,23 @@
+%h1 Listing dive_centers
+
+%table
+  %tr
+    %th Name
+    %th Url
+    %th Email
+    %th
+    %th
+    %th
+
+  - @dive_centers.each do |dive_center|
+    %tr
+      %td= dive_center.name
+      %td= dive_center.url
+      %td= dive_center.email
+      %td= link_to 'Show', dive_center
+      %td= link_to 'Edit', edit_dive_center_path(dive_center)
+      %td= link_to 'Destroy', dive_center, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Dive center', new_dive_center_path

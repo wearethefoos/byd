@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @dive_center.name
+%p
+  %b Url:
+  = @dive_center.url
+%p
+  %b Email:
+  = @dive_center.email
+
+= link_to 'Edit', edit_dive_center_path(@dive_center)
+\|
+= link_to 'Back', dive_centers_path

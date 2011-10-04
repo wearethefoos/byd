@@ -1,0 +1,2 @@
+module DiveCentersHelper
+end
