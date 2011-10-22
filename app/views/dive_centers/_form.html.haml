@@ -7,13 +7,19 @@
           %li= msg
 
   .field
-    = f.label :name
+    = f.label :name, "Name"
     = f.text_field :name
   .field
-    = f.label :url
+    = f.label :url, "Website"
     = f.text_field :url
   .field
-    = f.label :email
+    = f.label :email, "Email Address"
     = f.text_field :email
+  .field
+    = f.label :code, "Promo code"
+    = f.text_field :code
+  .field
+    = f.check_box :mailinglist
+    = f.label :mailinglist, "Also sign up for our newsletter", {class: "dont-break", checked: true}
   .actions
-    = f.submit 'Register!'
+    = f.submit 'Register!', :class => 'green'
